@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.x
 
-  pre-build:
+  pre_build:
     commands:
       - cd cicd      # change directory
       - bash install-terraform.sh
